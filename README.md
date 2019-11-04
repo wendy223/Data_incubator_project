@@ -36,10 +36,12 @@ It will be helpful if we can predict their future popularity. For goal 3, the da
 
 
 4	Definition of Success
+
 Success is defined as a complete workflow that achieves all four of the goals of the project. The lowest level that can be deemed a success is producing a working code to finish all the exploratory data analysis, to classify the companies into k categories, and to build a model that can predict the feature vector of each selected companies. An expected level of success is that code will utilize a verification and validation strategy, and be able to predict future performance of company with R2 no less than 0.75.  (The performance means ‘likes’, ‘checkins’ or ‘talking_about_counts’).  
 For example, each company can know and predict its popularities among the social media by ‘likes’ or ‘talking_about_count’. For the food or grocery companies etc., they can know their economic performance by ‘checkins’ or ‘were_here_count’. 
 
 5	Deliverables
+
 The key deliverable will be a Jupyter notebook that contains:
 ●	Appropriately organized data set
 ●	Exploratory data analysis
