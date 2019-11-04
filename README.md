@@ -12,6 +12,7 @@ Facebook provide a myriad of data points about companies such as customer tracti
 This big dataset contains information from more than 1 million cases with 14 columns describing their properties. This dataset contains more than 3163 companies from 2015 to 2018. Facebook followers provide the information about ‘checkins’, ‘were_here_count’, ‘likes’, ‘talking_about_count’ and ‘facebook_id’, which are defined as the feature vectors in my analysis. Additionally, the moving averaging model is needed for the time-series data. 
 
 3	Hypotheses/Goals
+
 Goal 1: Exploratory data analysis
 1.	For the same company, whether these feature vectors are correlated. Correlation matrix and principle component analysis can be conducted. Whether more checkins or likes represent higher ‘talking about count’. 
 (The preliminary result shows each company has unique performance. Case-by-case analysis is required for the interested company)
@@ -31,7 +32,9 @@ Goal 2: Develop model of company classification
 It’s interesting to classify the types of companies based on these feature vectors. For example, what companies have the top five likes; what’s the types of these companies? The types can probably be high-tech, grocery, hospital, school or fast-food-chain.
 
 Goal 3: Establish model for some companies to predict their 2019 ‘likes’ & ‘talking about counts’ & ‘checkins’ by data training
-It will be helpful if we can predict their future popularity. For goal 4, the dataset was split into training sets (data before 2018-01-01) and test set (data after 2018-01-01) . Different regression models will be tried here to improve their accuracy. Finally, the model will be used to predict their future performance. 
+It will be helpful if we can predict their future popularity. For goal 3, the dataset was split into training sets (data before 2018-01-01) and test set (data after 2018-01-01) . Different regression models will be tried here to improve their accuracy. Finally, the model will be used to predict their future performance. 
+
+
 4	Definition of Success
 Success is defined as a complete workflow that achieves all four of the goals of the project. The lowest level that can be deemed a success is producing a working code to finish all the exploratory data analysis, to classify the companies into k categories, and to build a model that can predict the feature vector of each selected companies. An expected level of success is that code will utilize a verification and validation strategy, and be able to predict future performance of company with R2 no less than 0.75.  (The performance means ‘likes’, ‘checkins’ or ‘talking_about_counts’).  
 For example, each company can know and predict its popularities among the social media by ‘likes’ or ‘talking_about_count’. For the food or grocery companies etc., they can know their economic performance by ‘checkins’ or ‘were_here_count’. 
