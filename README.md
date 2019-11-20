@@ -1,6 +1,12 @@
 
-# Interesting Facts from Facebook Followers
+# Fun Facts from Facebook Followers
 ### Wenqin You
+
+The detailed analysis and conclusion is posted in Medium: 
+
+[Fun Facts Learned From Facebook Followers for the companies](https://medium.com/@wenqinyou223/fun-facts-learned-from-facebook-followers-for-the-companies-234492da602d)
+
+If you like my blog, feel free to give it a like.
 
 ## 1. Background
 
